@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+.env
+.venv/
+venv/
+ENV/
+env/
+static/uploads/*
+!static/uploads/.gitkeep
+static/output_video/*
+!static/output_video/.gitkeep
+static/reports/*
+!static/reports/.gitkeep
+*.xlsx
+*.avi
+*.mp4
+!best\ \(3\).pt
+.DS_Store
