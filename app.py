@@ -1,3 +1,12 @@
+import os
+# Memory optimizations for Render free tier
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["PYTORCH_CPU_ALLOC_CONF"] = "max_split_size_mb:128"
+
+import torch
+torch.set_num_threads(1)
+torch.set_num_interop_threads(1)
 from flask import Flask, render_template, request, send_file
 from ultralytics import YOLO
 import os
