@@ -4,7 +4,20 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 300
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 300 --workers 1 --threads 2
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
+      - key: OMP_NUM_THREADS
+        value: 1
+      - key: MKL_NUM_THREADS
+        value: 1
+      - key: PYTORCH_CPU_ALLOC_CONF
+        value: max_split_size_mb:128
+      - key: ULTRALYTICS_CONFIG_DIR
+        value: /tmp
+      - key: YOLO_CONFIG_DIR
+        value: /tmp
+      - key: WEB_CONCURRENCY
+        value: 1
+
