@@ -11,7 +11,7 @@ Longitudinal Crack : D00
 
 Transverse Crack : D10
 
-Alligator Crack : D20
+Alligator Crack : D40
 
 Pothole : D30
 ## Features
