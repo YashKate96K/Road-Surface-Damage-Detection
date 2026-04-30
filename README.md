@@ -9,8 +9,8 @@ Demo Image Output : <img width="720" height="720" alt="output" src="https://gith
 
 - Longitudinal Crack : D00
 - Transverse Crack : D10
-- Alligator Crack : D40
-- Pothole : D30
+- Alligator Crack : D20
+- Manhole : D40
 ## Features
 
 - Upload images or videos for road damage detection
