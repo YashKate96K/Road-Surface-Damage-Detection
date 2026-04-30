@@ -2,7 +2,7 @@
 # Road Damage Detection App
 
 AI-powered road damage detection using YOLOv8 with cost estimation and reporting.
-
+Research Paper : https://drive.google.com/file/d/1SV_KWK50LKAKncl75F8Ce3_rYd0jLktE/view?usp=sharing
 Demo Video : https://drive.google.com/file/d/1eZ4T6FplHYYkCVQHor7XiKJWWtTPrmLE/view?usp=sharing
 
 Demo Image Output : <img width="720" height="720" alt="output" src="https://github.com/user-attachments/assets/37f2ce71-2343-4ed6-bdeb-5c53c4a08acc" />
