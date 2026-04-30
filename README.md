@@ -4,7 +4,8 @@
 AI-powered road damage detection using YOLOv8 with cost estimation and reporting.
 
 Demo Video : https://drive.google.com/file/d/1eZ4T6FplHYYkCVQHor7XiKJWWtTPrmLE/view?usp=sharing
-Demo Image Output : <img width="1080" height="1080" alt="output" src="https://github.com/user-attachments/assets/37f2ce71-2343-4ed6-bdeb-5c53c4a08acc" />
+
+Demo Image Output : <img width="720" height="720" alt="output" src="https://github.com/user-attachments/assets/37f2ce71-2343-4ed6-bdeb-5c53c4a08acc" />
 
 ## Features
 
