@@ -7,6 +7,10 @@ Demo Video : https://drive.google.com/file/d/1eZ4T6FplHYYkCVQHor7XiKJWWtTPrmLE/v
 
 Demo Image Output : <img width="720" height="720" alt="output" src="https://github.com/user-attachments/assets/37f2ce71-2343-4ed6-bdeb-5c53c4a08acc" />
 
+Longitudinal Crack : D00
+Transverse Crack : D10
+Alligator Crack : D20
+Pothole : D30
 ## Features
 
 - Upload images or videos for road damage detection
